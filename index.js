@@ -12,5 +12,5 @@ app.post("/products",postMan)
 app.get("/products/:id",productId)
 // step 3, connect express
 app.listen(2026, () => {
-    console.log("My app is running on port 2026")
+    console.log("Server is running on port 2026")
 })
